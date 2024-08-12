@@ -1,0 +1,9 @@
+- **Fully managed** data protection service
+- **Consolidate** management into one place ... across **accounts** & across **regions**
+- Supports a **wide range** of AWS products (EBS, EFS, EC2, RDS, Aurora)
+- **Backup Plans** - frequency, windows, lifecycle, vault, region copy
+- **Resources Backup** - What resources are backed up
+- **Vaults** - Backup **destination** (container) - assign KMS key for encryption
+- **Vault Lock** - write-once, read-many (**WORM**), 72 hour cool off, then even AWS cant delete
+- **On-Demand** - manual backups created as needed
+- **PITR** - Point in time recovery
